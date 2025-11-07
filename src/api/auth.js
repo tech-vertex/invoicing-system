@@ -24,7 +24,7 @@ export const login = (data) => {
     .catch((err) => {
       throw err;
     });
-};
+};//
 export const forgetPass = (data) => {
   return axios
     .post(url + "/auths/forget-password", data)

@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 import { url } from './config';
-
+//
 export const drawInvoiceTemplate = () => {
   const token = localStorage.getItem('@token');
   const headers = {
